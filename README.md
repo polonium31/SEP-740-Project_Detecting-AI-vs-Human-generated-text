@@ -16,10 +16,31 @@ The project is organized into the following directories:
 
 To run the code in this project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
-2. Install the required dependencies: `pip install -r requirements.txt`
-3. Set up the datasets in the `data` directory.
-4. Run the notebooks or execute the scripts in the `models` directory.
+1. Clone the repository: `git clone https://github.com/polonium31/SEP-740-Project_Detecting-AI-vs-Human-generated-text.git`
+
+2. The project contains three main folders:
+
+- `dataset`: Includes the datasets used for training and evaluation.
+
+  - `Training_Essay_Data.csv`: The main dataset.
+  - `cleaned_data.csv`: The dataset after exploratory data analysis (EDA) is performed.
+
+- `notebooks`: Contains Jupyter notebooks for experimentation and analysis.
+
+  - `DL_Project_testing.ipynb`: Contains EDA code.
+  - `ML_Code.ipynb`: Contains code for solving the problem using Machine Learning techniques.
+  - `DL_BERT_model.ipynb`: Contains code for using the BERT model.
+  - `DL_LSTM_model.ipynb`: Contains code for using the LSTM model.
+
+- `results`: Contains all important graphs and the final model.
+  - `model.pt`: The final model trained using BERT.
+
+## Running
+
+- Open and run `DL_Project_testing.ipynb` to perform exploratory data analysis (EDA) and necessary data preprocessing.
+- Open `ML_Code.ipynb` to explore and execute Machine Learning models like Random Forest, AdaBoost, and XGBoost.
+- Open `DL_BERT_model.ipynb` to work with the BERT model for deep learning-based text classification.
+- Open `DL_LSTM_model.ipynb` to work with the LSTM model for deep learning-based text classification.
 
 ## Dataset
 
@@ -31,13 +52,27 @@ To use this dataset, follow these steps:
 2. Click on the "Download" button to download the dataset.
 3. Extract the downloaded file to a desired location on your local machine.
 
-## Milestones
+## Team Members and Contributions
 
-- Milestone 1: Data Collection and Preprocessing
-- Milestone 2: Model Selection and Initial Training
-- Milestone 3: Model Evaluation and Hyperparameter Tuning
-- Milestone 4: Real-time Detection System Development
-- Milestone 5: Final Testing, Refinements, and Presentation
+### Raj Joshi
+
+- **Contributions:** EDA, Report
+- **GitHub Profile Link:** [raj joshi](https://github.com/rajjoshi18)
+
+### Simran Chadda
+
+- **Contributions:** Initial problem defining, ML
+- **GitHub Profile Link:** [simran chadda](https://github.com/SimranChadda)
+
+### Jainish Patel
+
+- **Contributions:** Initial problem defining, DL (LSTM & BERT), Report
+- **GitHub Profile Link:** [jainish patel](https://github.com/polonium31)
+
+### Mayur Patel
+
+- **Contributions:** DL (GPT), Presentation
+- **GitHub Profile Link:** [mayur patel](https://github.com/mayur045)
 
 ## References
 
