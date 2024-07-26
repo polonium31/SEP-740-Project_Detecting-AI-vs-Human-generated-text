@@ -36,7 +36,7 @@ To run the code in this project, follow these steps:
 
 - `results`: Contains all important graphs.
 
-All Deep Learning models are available here: `https://drive.google.com/drive/folders/1RAcC2Rt0oylTFr5aONWQrZefPPnl6Qyj?usp=sharing`
+All Deep Learning models are available here: https://drive.google.com/drive/folders/1RAcC2Rt0oylTFr5aONWQrZefPPnl6Qyj?usp=sharing
 ## Running
 
 - Open and run `Data_Processing.ipynb` to perform exploratory data analysis (EDA) and necessary data preprocessing.
