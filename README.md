@@ -29,18 +29,25 @@ To run the code in this project, follow these steps:
 
   - `DL_Project_testing.ipynb`: Contains EDA code.
   - `ML_Code.ipynb`: Contains code for solving the problem using Machine Learning techniques.
-  - `DL_BERT_model.ipynb`: Contains code for using the BERT model.
   - `DL_LSTM_model.ipynb`: Contains code for using the LSTM model.
+  - `DL_BERT_model.ipynb`: Contains code for using the BERT model.
+  - `DL_RoBERTa_model.ipynb`: Contains code for using the RoBERTa model.
+  - `DL_GPT2_model.ipynb`: Contains code for using the GPT2 model.
 
 - `results`: Contains all important graphs and the final model.
-  - `model.pt`: The final model trained using BERT.
+  - `LSTM_model.keras`: The final model trained using LSTM.
+  - `BERT_model.pt`: The final model trained using BERT.
+  - `RoBERTa_model.pt`: The final model trained using RoBERTa.
+  - `GPT2_model.pt`: The final model trained using GPT2.
 
 ## Running
 
 - Open and run `Data_Processing.ipynb` to perform exploratory data analysis (EDA) and necessary data preprocessing.
 - Open `ML_Code.ipynb` to explore and execute Machine Learning models like Random Forest, AdaBoost, and XGBoost.
-- Open `DL_BERT_model.ipynb` to work with the BERT model for deep learning-based text classification.
 - Open `DL_LSTM_model.ipynb` to work with the LSTM model for deep learning-based text classification.
+- Open `DL_BERT_model.ipynb` to work with the BERT model for deep learning-based text classification.
+- Open `DL_RoBERTa_model.ipynb` to work with the RoBERTa model for deep learning-based text classification.
+- Open `DL_GPT2_model.ipynb` to work with the GPT2 model for deep learning-based text classification.
 
 ## Dataset
 
@@ -76,7 +83,9 @@ To use this dataset, follow these steps:
 
 ## References
 
-1. Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv: https://arxiv.org/abs/1810.04805.
-2. Islam, N., Sutradhar, D., Noor, H., Raya, J. T., Maisha, M. T., & Farid, D. M. (Year). Distinguishing Human Generated Text From ChatGPT Generated Text Using Machine Learning. arXiv: https://arxiv.org/abs/2306.01761.
-3. Weber-Wulff, D., Anohina-Naumeca, A., Bjelobaba, S., Foltýnek, T., Guerrero-Dib, J., Popoola, O., Šigut, P., & Waddington, L. (2023). Testing of detection tools for AI-generated text. https://edintegrity.biomedcentral.com/articles/10.1007/s40979-023-00146-z
-4. Term Frequency-Inverse Document Frequency (TF-IDF): Text Vectorization. (n.d.). Towards Data Science. Retrieved from https://towardsdatascience.com/text-vectorization-term-frequency-inverse-document-frequency-tfidf-5a3f9604da6d.
+1. Term Frequency-Inverse Document Frequency (TF-IDF): Text Vectorization. (n.d.). Towards Data Science. Retrieved from https://towardsdatascience.com/text-vectorization-term-frequency-inverse-document-frequency-tfidf-5a3f9604da6d.
+2. Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv: https://arxiv.org/abs/1810.04805.
+3. Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, Veselin Stoyanov. RoBERTa: A Robustly Optimized BERT Pretraining Approach. arXiv: https://arxiv.org/abs/1907.11692.
+4. Weber-Wulff, D., Anohina-Naumeca, A., Bjelobaba, S., Foltýnek, T., Guerrero-Dib, J., Popoola, O., Šigut, P., & Waddington, L. (2023). Testing of detection tools for AI-generated text. https://edintegrity.biomedcentral.com/articles/10.1007/s40979-023-00146-z
+5. Islam, N., Sutradhar, D., Noor, H., Raya, J. T., Maisha, M. T., & Farid, D. M. (Year). Distinguishing Human Generated Text From ChatGPT Generated Text Using Machine Learning. arXiv: https://arxiv.org/abs/2306.01761.
+
