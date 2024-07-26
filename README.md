@@ -34,12 +34,9 @@ To run the code in this project, follow these steps:
   - `DL_RoBERTa_model.ipynb`: Contains code for using the RoBERTa model.
   - `DL_GPT2_model.ipynb`: Contains code for using the GPT2 model.
 
-- `results`: Contains all important graphs and the final model.
-  - `LSTM_model.keras`: The final model trained using LSTM.
-  - `BERT_model.pt`: The final model trained using BERT.
-  - `RoBERTa_model.pt`: The final model trained using RoBERTa.
-  - `GPT2_model.pt`: The final model trained using GPT2.
+- `results`: Contains all important graphs.
 
+All Deep Learning models are available here: `https://drive.google.com/drive/folders/1RAcC2Rt0oylTFr5aONWQrZefPPnl6Qyj?usp=sharing`
 ## Running
 
 - Open and run `Data_Processing.ipynb` to perform exploratory data analysis (EDA) and necessary data preprocessing.
