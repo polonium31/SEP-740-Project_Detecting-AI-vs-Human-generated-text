@@ -37,7 +37,7 @@ To run the code in this project, follow these steps:
 
 ## Running
 
-- Open and run `DL_Project_testing.ipynb` to perform exploratory data analysis (EDA) and necessary data preprocessing.
+- Open and run `Data_Processing.ipynb` to perform exploratory data analysis (EDA) and necessary data preprocessing.
 - Open `ML_Code.ipynb` to explore and execute Machine Learning models like Random Forest, AdaBoost, and XGBoost.
 - Open `DL_BERT_model.ipynb` to work with the BERT model for deep learning-based text classification.
 - Open `DL_LSTM_model.ipynb` to work with the LSTM model for deep learning-based text classification.
