@@ -27,7 +27,7 @@ To run the code in this project, follow these steps:
 
 - `notebooks`: Contains Jupyter notebooks for experimentation and analysis.
 
-  - `DL_Project_testing.ipynb`: Contains EDA code.
+  - `Data_Processing.ipynb`: Contains EDA code.
   - `ML_Code.ipynb`: Contains code for solving the problem using Machine Learning techniques.
   - `DL_LSTM_model.ipynb`: Contains code for using the LSTM model.
   - `DL_BERT_model.ipynb`: Contains code for using the BERT model.
